@@ -1,4 +1,4 @@
-# RimWorld Together Guide
+# Rimworld Together Guide
 
 This repo is an [mdBook](https://github.com/rust-lang/mdBook) on how to manage, use, and play RimWorld-Together.
 
