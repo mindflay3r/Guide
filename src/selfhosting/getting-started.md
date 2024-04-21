@@ -22,19 +22,8 @@ You can find the DLC files on our [GitHub Page](https://github.com/RimworldToget
 DLCs are considered mods, so you can treat them as mods. 
 
 ### Mods
-The first thing you probably want to configure are your mods. Currently, you can have enforced, optional or forbidden:
 
-* **Enforced mods** will be required for connection. Otherwise, the client will not be able to connect
-* **Optional mods** are not required for connection and the client will be able to connect without them
-* **Forbidden mods** are banned, which means the client will not be able to connect with them. Useful for servers without any mods restriction.
-
-You can find your mod files in your workshop folder, usually located in your steam folders under `C:\Program Files (x86)\Steam\steamapps\workshop\content\294100` on Windows.
-
-You can use this [tool](https://github.com/Byte-Nova/Library/releases/latest) to rename your mods to their in game name instead of ids. <u>Make sure to use it on a copy of your mods, not you actual workshop folder.</u>
-
-We heavily recommend to have any mods that affect the world map or factions to be enforced, as they can break things otherwise.
-
-You can find a list of our current incompatibility list [here](https://docs.google.com/spreadsheets/d/14f4oJIV82SzqNK-Tyewr0OKxVRgge8xFasivACwRlsA/edit#gid=0).
+Full guide on mod support can be found on our [Mod Support Page](/selfhosting/mod-support.md).
 
 ### Core
 
@@ -71,27 +60,7 @@ This file stores all the world data. We do not recommend editing it mid run.
 
 ## Making your server public
 
-### Port forwarding
-Port forwarding can be a little complicated. We'll assume you have basic knowledge of computers in this section.
-
-* Start by opening a command prompt
-* Type ipconfig and search for your default gateway.
-* Enter your default gateway in your browser
-* Find your router's settings
-* Find port forwarding (might be under advanced settings)
-* Create a new rule with the port that the server is using
-* Select TCP or Both for the port forwarding type. 
-* Select your computer if required.
-* Your friends should be able to connect to your server using your public ip and port! Make sure your server is running and that you saved the rule.
-
-### Virtual Private Network (VPN)
-VPNs such as Radmin, Hamachi or Wireguard can be used to share your server with a group of friends. Keep in mind this option isn't recommended for large servers.
-
-We'll be using Radmin in our example down below:
-
-* Download Radmin from https://www.radmin-vpn.com/
-* Press the power button on the app to turn it on, and create a new network with a unique password and name
-* Your friends can now join that network trough Radmin, and connect to the server with the port and the vpn's ip, which you can get by right clicking on your computer in the radmin application.
+Full guide on going public can be found on our [Going Public Page](/selfhosting/going-public.md).
 
 ## TroubleShooting
 
