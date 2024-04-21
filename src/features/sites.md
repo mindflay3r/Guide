@@ -2,7 +2,7 @@
 
 Players are able to create sites when playing with this mod!
 
-Sites are world map structures that aid players during their gameplay in Rimworld.
+Sites are world map structures that aid players during their gameplay in RimWorld.
 
 To create a site, move a caravan towards a free space in the map and use the site button!
 

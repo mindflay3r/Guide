@@ -31,7 +31,7 @@ Full guide on mod support can be found on our [Mod Support Page](/selfhosting/mo
 You can change the cost in silver of actions in this file. Currently, you can use them on players.
 
 #### DifficultyValues
-You can set all the values for your enforced difficulty if are currently using that configuration. You can find all those stats under the custom storyteller option in Rimworld.
+You can set all the values for your enforced difficulty if are currently using that configuration. You can find all those stats under the custom storyteller option in RimWorld.
 
 #### EventValues
 You can change the cost in silver of events in this file. You can call those events on players.
@@ -40,7 +40,7 @@ You can change the cost in silver of events in this file. You can call those eve
 You can change various settings about the server, such as:
 
 * The port being used by the server
-* The ip being used by the server (when in doubt, leave it to `0.0.0.0`)
+* The IP being used by the server (when in doubt, leave it to `0.0.0.0`)
 * The maximum amount of players connected at once.
 * The maximum amount of time a client can go without responding the server in milliseconds. You can increase it if you have an unstable connection.
 * Verboselogs gives you additional logging information on the server
