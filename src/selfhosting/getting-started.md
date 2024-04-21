@@ -16,25 +16,25 @@ The first client to join the server will be responsible for creating the world. 
 ## Configuration
 Most of the files can be ignored, the relevant ones are listed bellow.
 
-### Dlcs
-You can find the dlc files on our [https://github.com/RimworldTogether/Rimworld-Together github page] for server side use only.
+### DLCs
+You can find the DLC files on our [GitHub Page](https://github.com/RimworldTogether/Rimworld-Together) for server side use only.
 
-Dlcs are considered mods, so you can treat them as mods. 
+DLCs are considered mods, so you can treat them as mods. 
 
 ### Mods
 The first thing you probably want to configure are your mods. Currently, you can have enforced, optional or forbidden:
 
-*Enforced mods will be required for connection. Otherwise, the client will not be able to connect
-*Optional mods are not required for connection and the client will be able to connect without them
-*Forbidden mods are banned, which means the client will not be able to connect with them. Useful for servers without any mods restriction.
+* **Enforced mods** will be required for connection. Otherwise, the client will not be able to connect
+* **Optional mods** are not required for connection and the client will be able to connect without them
+* **Forbidden mods** are banned, which means the client will not be able to connect with them. Useful for servers without any mods restriction.
 
-You can find your mod files in your workshop folder, usually located in your steam folders under C:\Program Files (x86)\Steam\steamapps\workshop\content\294100.
+You can find your mod files in your workshop folder, usually located in your steam folders under `C:\Program Files (x86)\Steam\steamapps\workshop\content\294100` on Windows.
 
-You can use this [https://github.com/Byte-Nova/Library/releases/latest tool] to rename your mods to their in game name instead of ids. '''<u>Make sure to use it on a copy of your mods, not you actual workshop folder.</u>'''
+You can use this [tool](https://github.com/Byte-Nova/Library/releases/latest) to rename your mods to their in game name instead of ids. <u>Make sure to use it on a copy of your mods, not you actual workshop folder.</u>
 
 We heavily recommend to have any mods that affect the world map or factions to be enforced, as they can break things otherwise.
 
-You can find a list of our current incompatibility list [https://docs.google.com/spreadsheets/d/14f4oJIV82SzqNK-Tyewr0OKxVRgge8xFasivACwRlsA/edit#gid=0 here].
+You can find a list of our current incompatibility list [here](https://docs.google.com/spreadsheets/d/14f4oJIV82SzqNK-Tyewr0OKxVRgge8xFasivACwRlsA/edit#gid=0).
 
 ### Core
 
@@ -61,7 +61,7 @@ You can change various settings about the server, such as:
 You can change if you want to allow custom scenarios for clients (ex :crashlanded, mechanitor, naked brutality).
 
 #### SiteValues
-You can change the various cost and production of sites in this file. You can find out more information about sites on our [[Sites|site page]].
+You can change the various cost and production of sites in this file. You can find out more information about sites on out [Site Page](/features/sites.md).
 
 #### Whitelist
 The file lets you configure if you want a whitelist or not. Simply put the in game usernames (the one used to log in) in between the brackets.
@@ -84,15 +84,16 @@ Port forwarding can be a little complicated. We'll assume you have basic knowled
 * Select your computer if required.
 * Your friends should be able to connect to your server using your public ip and port! Make sure your server is running and that you saved the rule.
 
-### Virtual private network (VPN)
-Vpns such as Radmin, hamachi or wireguard can be used to share your server with a group of friends. Keep in mind this option isn't recommended for large servers.
+### Virtual Private Network (VPN)
+VPNs such as Radmin, Hamachi or Wireguard can be used to share your server with a group of friends. Keep in mind this option isn't recommended for large servers.
 
-We'll be using Radmin in our example down bellow:
+We'll be using Radmin in our example down below:
 
 * Download Radmin from https://www.radmin-vpn.com/
 * Press the power button on the app to turn it on, and create a new network with a unique password and name
 * Your friends can now join that network trough Radmin, and connect to the server with the port and the vpn's ip, which you can get by right clicking on your computer in the radmin application.
 
 ## TroubleShooting
-For additional help with troubleshooting, please join our discord server at https://discord.gg/VFFSvfJTQD.
+
+For additional help with troubleshooting, please join our [Discord Server](https://discord.gg/VFFSvfJTQD).
 
