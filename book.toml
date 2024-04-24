@@ -4,3 +4,11 @@ description = "Guide on creating and managing your own RimWorld Together server"
 authors = ["RimWorld-Together Staff"]
 language = "en"
 
+[output.html]
+default-theme = "rimworld"
+git-repository-url = "https://github.com/RimworldTogether/Guide"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/RimworldTogether/Guide/edit/main/{path}"
+
+[output.html.print]
+enable = false
