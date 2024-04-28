@@ -7,7 +7,7 @@ The server owner can set silver cost for the event in the `EventValues.json` fil
   * There is no default value you must set this otherwise events are free to trigger.
 
 ## Step 2 - Caravan
-The player must send a caravan to the settlement they wish to trigger the event at, once ontop of the players settlement use the `Events` button.
+The player must send a caravan to the settlement they wish to trigger the event at, once on top of the opponent's settlement use the `Events` button.
 
   * The caravan must carry enough silver to pay the event fee.
 
@@ -16,7 +16,11 @@ The player must send a caravan to the settlement they wish to trigger the event 
   * The target of the event must be online.
 
 ## Step 3 - Event Selection
-The event will scale with the wealth of the target settlement, you have the following choices.
+The event will scale with the wealth of the target settlement.
+
+You will need to return your caravan to your own settlement after triggering the event.
+
+The following choices are available.
 
   * Raid
   
