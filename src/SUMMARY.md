@@ -7,7 +7,9 @@
 - [Getting Started](selfhosting/getting-started.md)
 - [Mod Support](selfhosting/mod-support.md)
 - [Going Public](selfhosting/going-public.md)
-
+- [Features](features.md)
+- [Custom Difficulty](selfhosting/difficulty.md)
+<!-- 
 # Features
 - [Events](features/events.md)
 - [Factions](features/factions.md)
@@ -19,6 +21,6 @@
 - [Personal Sites](features/sites.md)
 - [Faction Sites](features/sites.md)
 - [In-Game Chat](features/ingame-chat.md)
-- [Custom Difficulty](features/difficulty.md)
+- [Custom Difficulty](features/difficulty.md) -->
 
 
